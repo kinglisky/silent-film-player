@@ -1,0 +1,7 @@
+videos/
+src/
+.cache/
+
+node_modules
+
+/dist
