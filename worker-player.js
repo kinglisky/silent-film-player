@@ -1,5 +1,6 @@
 import Renderer from './src/renderer/web-gl';
 import WorkerPlayer from './src/worker/player';
+import wasmBinary from './src/wasm-binary';
 import videoData from './video-data';
 
 function initCanvas(videoData) {
@@ -34,7 +35,7 @@ window.addEventListener('load', async () => {
         loop: true,
         autoplay: true,
         progressive: true,
-        wasmBinary: '',
+        wasmBinary,
         chunkSize: 1 * 1024 * 1024,
         videoBufferSize: 1 * 1024 * 1024,
         disableWebAssembly: true,

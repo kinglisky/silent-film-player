@@ -1,4 +1,5 @@
 import Player from './src/index';
+import wasmBinary from './src/wasm-binary';
 import videoData from './video-data';
 
 window.addEventListener('load',async () => {
@@ -22,8 +23,10 @@ window.addEventListener('load',async () => {
 
     const player = new Player(videoData.url, {
         canvas,
+        wasmBinary,
         loop: true,
         autoplay: true,
+        disableWebAssembly: true,
     });
 
     window.player = player;

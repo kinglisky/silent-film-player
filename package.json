@@ -1,5 +1,5 @@
 {
-  "name": "silent-film",
+  "name": "silent-film-player",
   "version": "0.0.1",
   "description": "ts player",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kinglisky/silent-film.git"
+    "url": "git+https://github.com/kinglisky/silent-film-player.git"
   },
   "author": "kinglisky",
   "license": "MIT",

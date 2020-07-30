@@ -1,11 +1,14 @@
-# SILENT-FILM
+# SILENT-FILM-PLAYER
 
 TS 格式的视频播放器，基于 https://github.com/phoboslab/jsmpeg 二次开发，用户支持背景视频回退
 
 ## 开发
-
+- 安装：`npm install`
 - 开发：`npm run dev`
 - 构建：`npm run lib`
+
+## 使用
+
 
 ## 转格式
 

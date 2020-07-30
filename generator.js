@@ -1,6 +1,7 @@
 
 import Generator from './src/generator';
 import Renderer from './src/renderer/canvas-2d';
+import wasmBinary from './src/wasm-binary';
 import videoData from './video-data';
 
 window.addEventListener('load', async () => {
@@ -26,9 +27,10 @@ window.addEventListener('load', async () => {
     const generator = new Generator({
         url: videoData.url,
         renderer,
+        wasmBinary,
         loop: true,
         progressive: true,
-        wasmBinary: '',
+        disableWebAssembly: true,
     });
 
     generator.init().then(() => {
