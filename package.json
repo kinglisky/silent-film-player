@@ -1,6 +1,6 @@
 {
   "name": "silent-film-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ts player",
   "main": "lib/index.js",
   "scripts": {
