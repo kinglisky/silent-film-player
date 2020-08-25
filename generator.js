@@ -1,4 +1,3 @@
-
 import Generator from './src/generator';
 import Renderer from './src/renderer/canvas-2d';
 import wasmBinary from './src/wasm-binary';
