@@ -34,6 +34,12 @@ jsmpeg 支持 webAssembly 解码，但在移动端效果较差不建议使用，
 
 ## 使用
 
+安装：
+
+```shell
+npm i silent-film-player -S
+```
+
 基本使用：
 ```javascript
 import Player from 'silent-film-player';
